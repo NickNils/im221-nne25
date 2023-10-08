@@ -38,12 +38,12 @@ When I’m not designing I love painting, watching movies, and rock climbing. My
 
 # Absurd Cases App Design:
 ## 2023
-  Absurd Cases is a phone case customization app adapted from Casetify. It allows its users to customize a phone case for any iPhone model. Users can add photos from their phone to the back of the case, adjust the color, and the level of protection the case provides.
-  ## Target Audience:
-    Stevie is a 19 year old college student studying graphic design. She has a low income, so she spends her money carefully on quality products. She's looking for a way to express herself artistically and show off the graphics she creates. 
-    Needs to:
-      - Express herself creatively
-      - Protect her phone from anything
+Absurd Cases is a phone case customization app adapted from Casetify. It allows its users to customize a phone case for any iPhone model. Users can add photos from their phone to the back of the case, adjust the color, and the level of protection the case provides.
+## Target Audience:
+Stevie is a 19 year old college student studying graphic design. She has a low income, so she spends her money carefully on quality products. She's looking for a way to express herself artistically and show off the graphics she creates. 
+Needs to:
+- Express herself creatively
+- Protect her phone from anything
 ## Old Design:
 Casetify, for being such a creative brand that frequently works with artists, has a very bland app.
 The dull color pallet does not suit the brand.
@@ -72,9 +72,9 @@ The Lion, The Wolf, and the Fox is a story about deception, violence, and betray
 Shark is a home appliance and beauty product company. I specifically targeted and redesigned their Hyperair hair dryer product page. My goal with this project was to follow a strict grid and build out a design system that could theoretically be applied to other pages. I then took my design and coded it top to bottom using HTML and CSS
 # Smooth Goo Publication:
 ## 2023
-Smooth Goo is an experimental music magazine, releasing on an irregular schedule as it’s produced. The magazine focuses on interviewing smaller underground artists. The magazine’s brand is left field surrealist and unconventional. For this issue I used a blob motif throughout the magazine for its cover article. 
-## Masthead:
-The masthead of the publication is based on 60s psychedelic rock posters, and is designed to be an actual sticker that patrons of the magazine could collect as they buy more issues. It’s not afraid to be slightly illegible or out of the norm for a magazine logo because the goal of Smooth Goo is to develop a niche dedicated fan base, not appeal to a wide audience.
-## Imagemaking:
-For this issue of the magazine I developed a system using these ambiguous blob shapes as fake cutouts in the magazine. A fun design challenge I had was figuring out different ways to use the blobs. In addition to the organic blob shapes the magazine uses a variety of image making including illustration, photography, and bold typography.
+        Smooth Goo is an experimental music magazine, releasing on an irregular schedule as it’s produced. The magazine focuses on interviewing smaller underground artists. The magazine’s brand is left field surrealist and unconventional. For this issue I used a blob motif throughout the magazine for its cover article. 
+    ## Masthead:
+        The masthead of the publication is based on 60s psychedelic rock posters, and is designed to be an actual sticker that patrons of the magazine could collect as they buy more issues. It’s not afraid to be slightly illegible or out of the norm for a magazine logo because the goal of Smooth Goo is to develop a niche dedicated fan base, not appeal to a wide audience.
+    ## Imagemaking:
+        For this issue of the magazine I developed a system using these ambiguous blob shapes as fake cutouts in the magazine. A fun design challenge I had was figuring out different ways to use the blobs. In addition to the organic blob shapes the magazine uses a variety of image making including illustration, photography, and bold typography.
 
