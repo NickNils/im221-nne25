@@ -35,6 +35,71 @@ When I’m not designing I love painting, watching movies, and rock climbing. My
 (input field) inquiry
 
 # Resume:
+## Nicholas Evangelinos
+### Contact Information
+917-929-9435
+nne25@drexel.edu
+3200 Chestnut St, Philadelphia PA 19104
+### Education
+- Drexel University
+- Bachelor of Science in Graphic Design
+- Minor: UiUx Design
+- September 2021–June 2025
+- GPA: 3.91
+### Courswork
+- Visual Communication **I**, **II**, and **III**
+- Typography **I**, and **II**
+- Web Graphics **I**, **II**, and **III**
+- Photography **I**, and **II**
+- User Interface Design **I**, and **II**
+- Design **I**, and **II**
+- Interaction Design
+- Microeconomics
+### Skills
+***Design Programs***
+- Adobe Illustrator
+- Adobe Photoshop
+- Adobe Bridge
+- Adobe After Effects
+- Adobe Indesign
+- Figma
+***Coding Languages***
+- HTML
+- CSS
+### Activities & Organizations
+The Stuyvesant Spectator
+Illustrator, 2019–2020
+Head of Illustration, 2020–2021
+
+Personal Project
+Digital gradebook
+Ux Designer, 2022-Present
+### Design Experience
+Twitter App Redesign
+Philadelphia PA
+**Designer**
+**November_December 2022**
+- Rebranded a social media app based on a new logo (provided), and created three page layouts for mobile and desktop
+- Developed custom set of icons for redesign, and considered how icons work with each other and the new logo
+- Established a consistent design system with two other group mates to create consistency between pages
+- Presented Redesign to professor and classmates in Web Graphics Class
+
+The Stuyvesant Spectator
+New York, NY
+**Head of Illustration**
+**June 2020–September 2021**
+- Managed a team of Illustrators by delegating tasks to each illustrator using en excel spread sheet and making sure everyone delivers work as needed for the fast paced weekly schedule
+- Reviewed incoming Illustrator applications and interviewed potential illustrator candidates
+- Communicate with editors to determine which articles will receive artwork and subject matter for illustrations in order to create a cohesive final product
+
+### Employment Experience
+New Yorker Bagels
+New York, NY
+**Financial tracker**
+**June 2021–September 2022**
+- Counted and Distributed money for payroll to over 30 employees
+- Tracked all money coming in and out of company on a weekly basis using excel spread sheets   
+- Organizing Cash and Credit deliveries of up to $150,000 per week
 
 # Absurd Cases App Design:
 ## 2023
@@ -72,9 +137,9 @@ The Lion, The Wolf, and the Fox is a story about deception, violence, and betray
 Shark is a home appliance and beauty product company. I specifically targeted and redesigned their Hyperair hair dryer product page. My goal with this project was to follow a strict grid and build out a design system that could theoretically be applied to other pages. I then took my design and coded it top to bottom using HTML and CSS
 # Smooth Goo Publication:
 ## 2023
-        Smooth Goo is an experimental music magazine, releasing on an irregular schedule as it’s produced. The magazine focuses on interviewing smaller underground artists. The magazine’s brand is left field surrealist and unconventional. For this issue I used a blob motif throughout the magazine for its cover article. 
-    ## Masthead:
-        The masthead of the publication is based on 60s psychedelic rock posters, and is designed to be an actual sticker that patrons of the magazine could collect as they buy more issues. It’s not afraid to be slightly illegible or out of the norm for a magazine logo because the goal of Smooth Goo is to develop a niche dedicated fan base, not appeal to a wide audience.
-    ## Imagemaking:
-        For this issue of the magazine I developed a system using these ambiguous blob shapes as fake cutouts in the magazine. A fun design challenge I had was figuring out different ways to use the blobs. In addition to the organic blob shapes the magazine uses a variety of image making including illustration, photography, and bold typography.
+Smooth Goo is an experimental music magazine, releasing on an irregular schedule as it’s produced. The magazine focuses on interviewing smaller underground artists. The magazine’s brand is left field surrealist and unconventional. For this issue I used a blob motif throughout the magazine for its cover article. 
+## Masthead:
+The masthead of the publication is based on 60s psychedelic rock posters, and is designed to be an actual sticker that patrons of the magazine could collect as they buy more issues. It’s not afraid to be slightly illegible or out of the norm for a magazine logo because the goal of Smooth Goo is to develop a niche dedicated fan base, not appeal to a wide audience.
+## Imagemaking:
+For this issue of the magazine I developed a system using these ambiguous blob shapes as fake cutouts in the magazine. A fun design challenge I had was figuring out different ways to use the blobs. In addition to the organic blob shapes the magazine uses a variety of image making including illustration, photography, and bold typography.
 
