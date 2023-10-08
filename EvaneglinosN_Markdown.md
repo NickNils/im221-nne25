@@ -1,7 +1,7 @@
-Nicholas Evangelinos
-Philip Sinatra
-Web Design 1
-10/07/2023
+Nicholas Evangelinos  
+Philip Sinatra  
+Web Design 1  
+10/07/2023  
 
 # Home Page:
 Hello! I’m a Graphic Designer and UiUx designer who loves creating exciting designs that break free from the norm.
@@ -30,16 +30,16 @@ When I’m not designing I love painting, watching movies, and rock climbing. My
 - Instagram: @nicholasnils
 
 ## Looking forward to working with you…
-(input field) name
-(input field) email address
-(input field) inquiry
+(input field) name  
+(input field) email address  
+(input field) inquiry  
 
 # Resume:
 ## Nicholas Evangelinos
 ### Contact Information
-917-929-9435
-nne25@drexel.edu
-3200 Chestnut St, Philadelphia PA 19104
+917-929-9435  
+nne25@drexel.edu  
+3200 Chestnut St, Philadelphia PA 19104  
 ### Education
 - Drexel University
 - Bachelor of Science in Graphic Design
@@ -67,36 +67,36 @@ nne25@drexel.edu
 - HTML
 - CSS
 ### Activities & Organizations
-The Stuyvesant Spectator
-Illustrator, 2019–2020
-Head of Illustration, 2020–2021
+The Stuyvesant Spectator  
+Illustrator, 2019–2020  
+Head of Illustration, 2020–2021  
 
-Personal Project
-Digital gradebook
-Ux Designer, 2022-Present
+Personal Project  
+Digital gradebook  
+Ux Designer, 2022-Present  
 ### Design Experience
-Twitter App Redesign
-Philadelphia PA
-**Designer**
-**November_December 2022**
+Twitter App Redesign  
+Philadelphia PA  
+**Designer**  
+**November_December 2022**  
 - Rebranded a social media app based on a new logo (provided), and created three page layouts for mobile and desktop
 - Developed custom set of icons for redesign, and considered how icons work with each other and the new logo
 - Established a consistent design system with two other group mates to create consistency between pages
 - Presented Redesign to professor and classmates in Web Graphics Class
 
-The Stuyvesant Spectator
-New York, NY
-**Head of Illustration**
-**June 2020–September 2021**
+The Stuyvesant Spectator  
+New York, NY  
+**Head of Illustration**  
+**June 2020–September 2021**  
 - Managed a team of Illustrators by delegating tasks to each illustrator using en excel spread sheet and making sure everyone delivers work as needed for the fast paced weekly schedule
 - Reviewed incoming Illustrator applications and interviewed potential illustrator candidates
 - Communicate with editors to determine which articles will receive artwork and subject matter for illustrations in order to create a cohesive final product
 
 ### Employment Experience
-New Yorker Bagels
-New York, NY
-**Financial tracker**
-**June 2021–September 2022**
+New Yorker Bagels  
+New York, NY  
+**Financial tracker**  
+**June 2021–September 2022**  
 - Counted and Distributed money for payroll to over 30 employees
 - Tracked all money coming in and out of company on a weekly basis using excel spread sheets   
 - Organizing Cash and Credit deliveries of up to $150,000 per week
