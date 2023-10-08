@@ -67,17 +67,17 @@ Booking.com is a travel booking website. I created designs for various pages tha
 
 # Aesop’s Fables Brochure:
 ## 2023
-The Lion, The Wolf, and the Fox is a story about deception, violence, and betrayal. I wanted to depict this story in a more immersive way through a brochure. I focused on expressing different emotions and events of the story through typography. An important element of the story is the deception of the fox character, so I represented this by not giving the reader all the information at once, slowly revealing the phrase “struck him dead’ as they unfold the story. I also connected elements from the inside of the brochure to elements from the outside, causing the design to change as the viewer unfolds it depending on the context
+- The Lion, The Wolf, and the Fox is a story about deception, violence, and betrayal. I wanted to depict this story in a more immersive way through a brochure. I focused on expressing different emotions and events of the story through typography. An important element of the story is the deception of the fox character, so I represented this by not giving the reader all the information at once, slowly revealing the phrase “struck him dead’ as they unfold the story. I also connected elements from the inside of the brochure to elements from the outside, causing the design to change as the viewer unfolds it depending on the context
 
 # Shark website design:
 ## 2023
-Shark is a home appliance and beauty product company. I specifically targeted and redesigned their Hyperair hair dryer product page. My goal with this project was to follow a strict grid and build out a design system that could theoretically be applied to other pages. I then took my design and coded it top to bottom using HTML and CSS.
+- Shark is a home appliance and beauty product company. I specifically targeted and redesigned their Hyperair hair dryer product page. My goal with this project was to follow a strict grid and build out a design system that could theoretically be applied to other pages. I then took my design and coded it top to bottom using HTML and CSS.
 
 # Smooth Goo Publication:
 ## 2023
-Smooth Goo is an experimental music magazine, releasing on an irregular schedule as it’s produced. The magazine focuses on interviewing smaller underground artists. The magazine’s brand is left field surrealist and unconventional. For this issue I used a blob motif throughout the magazine for its cover article. 
-## Masthead:
-The masthead of the publication is based on 60s psychedelic rock posters, and is designed to be an actual sticker that patrons of the magazine could collect as they buy more issues. It’s not afraid to be slightly illegible or out of the norm for a magazine logo because the goal of Smooth Goo is to develop a niche dedicated fan base, not appeal to a wide audience.
-## Imagemaking:
-For this issue of the magazine I developed a system using these ambiguous blob shapes as fake cutouts in the magazine. A fun design challenge I had was figuring out different ways to use the blobs. In addition to the organic blob shapes the magazine uses a variety of image making including illustration, photography, and bold typography.
+- Smooth Goo is an experimental music magazine, releasing on an irregular schedule as it’s produced. The magazine focuses on interviewing smaller underground artists. The magazine’s brand is left field surrealist and unconventional. For this issue I used a blob motif throughout the magazine for its cover article. 
+- ## Masthead:
+- The masthead of the publication is based on 60s psychedelic rock posters, and is designed to be an actual sticker that patrons of the magazine could collect as they buy more issues. It’s not afraid to be slightly illegible or out of the norm for a magazine logo because the goal of Smooth Goo is to develop a niche dedicated fan base, not appeal to a wide audience.
+- ## Imagemaking:
+- For this issue of the magazine I developed a system using these ambiguous blob shapes as fake cutouts in the magazine. A fun design challenge I had was figuring out different ways to use the blobs. In addition to the organic blob shapes the magazine uses a variety of image making including illustration, photography, and bold typography.
 
