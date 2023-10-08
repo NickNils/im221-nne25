@@ -63,6 +63,7 @@ nne25@drexel.edu
 - Adobe After Effects
 - Adobe Indesign
 - Figma  
+
 ***Coding Languages***
 - HTML
 - CSS
