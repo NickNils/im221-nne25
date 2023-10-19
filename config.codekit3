@@ -60,6 +60,62 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
+    "\/p1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/p1.html",
+      "oF" : 0
+    },
+    "\/p2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/p2.html",
+      "oF" : 0
+    },
+    "\/p3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/p3.html",
+      "oF" : 0
+    },
+    "\/p4.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/p4.html",
+      "oF" : 0
+    },
+    "\/p5.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/p5.html",
+      "oF" : 0
+    },
+    "\/p6.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/p6.html",
+      "oF" : 0
+    },
+    "\/projects.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects.html",
+      "oF" : 0
+    },
     "\/resume.html" : {
       "cB" : 0,
       "ft" : 8192,
