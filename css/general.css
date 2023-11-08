@@ -62,7 +62,7 @@ h1.logo {
 
 
 
-.prev > div, .next > div {
+/* .prev > div, .next > div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,8 +70,13 @@ h1.logo {
 
 .prev > div > i, .next > div > i, .prev > div > h1, .next > div > h1 {
     font-size: var(--logo-size);
-}
+} */
 
-a:link.next, a:visited.next, a:link.prev, a:visited.prev {
+a:link.next > h1, a:visited.next > h1, a:link.prev > h1, a:visited.prev > h1, a:link.next > i, a:visited.next > i, a:link.prev > i, a:visited.prev > i {
     color: var(--button-color);
+    text-decoration: none;
+}
+a:hover.next > h1, a:active.next > h1, a:hover.prev > h1, a:active.prev > h1, a:hover.next > i, a:active.next > i, a:hover.prev > i, a:active.prev > i {
+    color: var(--button-hover-color);
+    text-decoration: underline;
 }
