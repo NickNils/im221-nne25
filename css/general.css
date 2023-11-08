@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Impact;
+    src: url(../fonts/impact.ttf);
+}
+
+:root {
+    --logo-color: #E6371F;
+    --heading-color: #0A0F8F;
+    --background-color: #FFFFFF;
+    --button-color: #F08779;
+    --button-hover-color: #E6371F;
+    --text-color: #01050F;
+    --text2-color: #535353;
+    --section-color-01: #EAEAEA;
+    --section-color-02: #01050F;
+
+
+    --heading-type: Impact;
+    --paragraph-type: Helvetica, Arial, sans-serif;
+
+    --rhythm: 0.5rem;
+    --h1-size: calc(var(--rhythm) * 4);
+    --logo-size: calc(var(--rhythm) * 3);
+    --paragraph-size: calc(var(--rhythm) * 2);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, a {
+    color: var(--heading-color);
+    font-family: var(--heading-type);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: var(--h1-size);
+}
+
+p, li {
+    font-family: var(--paragraph-type);
+    color: var(--text-color);
+    font-size: var(--paragraph-size);
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+h1.logo {
+    color: var(--logo-color);
+    font-size: var(--logo-size);
+
+}
