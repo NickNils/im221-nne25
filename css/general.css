@@ -29,7 +29,7 @@
     box-sizing: border-box;
 }
 
-img {
+img, video {
     width: 100%;
 }
 
@@ -45,7 +45,6 @@ h1 {
 
 p, li {
     font-family: var(--paragraph-type);
-    color: var(--text-color);
     font-size: var(--paragraph-size);
 }
 
@@ -56,3 +55,23 @@ h1.logo {
     font-size: var(--logo-size);
 }
 
+.prev_next {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.prev > div, .next > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prev > div > i, .next > div > i, .prev > div > h1, .next > div > h1 {
+    font-size: var(--logo-size);
+}
+
+a:link.next, a:visited.next, a:link.prev, a:visited.prev {
+    color: var(--button-color);
+}
