@@ -5,7 +5,7 @@
 
 :root {
     --logo-color: #E6371F;
-    --heading-color: #0A0F8F;
+    --heading-color: #01050F;
     --background-color: #FFFFFF;
     --button-color: #F08779;
     --button-hover-color: #E6371F;
@@ -29,10 +29,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: var(--background-color);
-}
-
 img {
     width: 100%;
 }
@@ -53,12 +49,10 @@ p, li {
     font-size: var(--paragraph-size);
 }
 
-a:link, a:visited{
-    text-decoration: none;
-}
+
 
 h1.logo {
     color: var(--logo-color);
     font-size: var(--logo-size);
-
 }
+
