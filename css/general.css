@@ -6,6 +6,7 @@
 :root {
     --logo-color: #E6371F;
     --heading-color: #01050F;
+    --h2-color: #535353;
     --background-color: #FFFFFF;
     --button-color: #F08779;
     --button-hover-color: #E6371F;
@@ -20,6 +21,7 @@
 
     --rhythm: 0.5rem;
     --h1-size: calc(var(--rhythm) * 4);
+    --h2-size: calc(var(--rhythm) * 2.5);
     --logo-size: calc(var(--rhythm) * 3);
     --paragraph-size: calc(var(--rhythm) * 2);
 }
@@ -29,23 +31,62 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 0px 16px;
+}
+
+header{
+    margin: calc(var(--rhythm) * 4) 0px calc(var(--rhythm) * 12);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > a:last-child > i{
+    font-size: var(--h2-size);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer > div > ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--rhythm);
+}
+
+footer > div > ul:last-child i {
+    font-size: var(--h2-size);
+}
+
 img, video {
     width: 100%;
 }
 
 h1, h2, h3, a {
-    color: var(--heading-color);
     font-family: var(--heading-type);
     text-transform: uppercase;
 }
 
 h1 {
+    color: var(--heading-color);
     font-size: var(--h1-size);
+}
+
+h2 {
+    color: var(--heading-color);
+    font-size: var(--h2-size);
 }
 
 p, li {
     font-family: var(--paragraph-type);
     font-size: var(--paragraph-size);
+    font-weight: 300;
+    line-height: 1.3;
 }
 
 
@@ -53,24 +94,26 @@ p, li {
 h1.logo {
     color: var(--logo-color);
     font-size: var(--logo-size);
+    line-height: 0.9;
 }
 
 .prev_next {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
 
-/* .prev > div, .next > div {
+.prev, .next {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.prev > div > i, .next > div > i, .prev > div > h1, .next > div > h1 {
+.prev > i, .next > i, .prev > h1, .next > h1 {
     font-size: var(--logo-size);
-} */
+}
 
 a:link.next > h1, a:visited.next > h1, a:link.prev > h1, a:visited.prev > h1, a:link.next > i, a:visited.next > i, a:link.prev > i, a:visited.prev > i {
     color: var(--button-color);
@@ -79,4 +122,10 @@ a:link.next > h1, a:visited.next > h1, a:link.prev > h1, a:visited.prev > h1, a:
 a:hover.next > h1, a:active.next > h1, a:hover.prev > h1, a:active.prev > h1, a:hover.next > i, a:active.next > i, a:hover.prev > i, a:active.prev > i {
     color: var(--button-hover-color);
     text-decoration: underline;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--rhythm) * 3);
 }

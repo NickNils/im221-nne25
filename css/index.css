@@ -1,0 +1,32 @@
+.projects > ul {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--rhythm) * 4);
+
+}
+
+.projects > ul img {
+    height: 45vh;
+    object-fit: cover;
+}
+
+.projects > ul a:link, .projects > ul a:visited {
+    color: var(--heading-color);
+}
+
+.projects > ul > li:last-child > a img{
+    background-color: #ED1C24;
+}
+
+.projects > h1 {
+    padding-bottom: calc(var(--rhythm) * 2);
+}
+
+main > p > span {
+    color: var(--logo-color);
+    font-weight: 900;
+}
+
+main > p {
+    margin-bottom: calc(var(--rhythm) * 6);
+}
