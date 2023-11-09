@@ -14,6 +14,10 @@
     color: var(--heading-color);
 }
 
+.projects > ul a {
+    font-size: var(--h2-size);
+}
+
 .projects > ul > li:last-child > a img{
     background-color: #ED1C24;
 }
