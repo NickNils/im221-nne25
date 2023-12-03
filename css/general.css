@@ -14,6 +14,8 @@
     --text2-color: #535353;
     --section-color-01: #EAEAEA;
     --section-color-02: #01050F;
+    --burger: #0A0F8F;
+    --flavor: #FFC700;
 
 
     --heading-type: Impact;
@@ -44,14 +46,23 @@ header{
 
 header > a:last-child > i{
     font-size: var(--h2-size);
+    color: var(--burger);
 }
 
 main {
     margin-bottom: calc(var(--rhythm) * 4);
 }
 
-main section, main > p {
+main section, main > p, main > h1 {
     padding: 0px 16px;
+}
+
+main > h1+p, main > h1+section {
+    padding-top: var(--logo-size);
+}
+
+h2+ul, h2+p {
+    padding-top: var(--rhythm);
 }
 
 footer {
@@ -83,6 +94,10 @@ img, video {
     width: 100%;
 }
 
+h1, h2, h3, h4, h5, p, li, a {
+    text-wrap: pretty;
+}
+
 h1, h2, h3, a {
     font-family: var(--heading-type);
     text-transform: uppercase;
@@ -102,10 +117,8 @@ p, li {
     font-family: var(--paragraph-type);
     font-size: var(--paragraph-size);
     font-weight: 300;
-    line-height: 1.3;
+    line-height: 1.4;
 }
-
-
 
 h1.logo {
     color: var(--logo-color);
@@ -119,8 +132,6 @@ h1.logo {
     flex-direction: row;
     justify-content: space-between;
 }
-
-
 
 .prev, .next {
     display: flex;
@@ -147,14 +158,95 @@ a:hover.next > h1, a:active.next > h1, a:hover.prev > h1, a:active.prev > h1, a:
     gap: calc(var(--rhythm) * 2);
 }
 
-h1+p {
+/* h1+p {
     padding-top: 20px;
 }
 
 h2+p {
     padding-top: 16px;
-}
+} */
 
 p {
     margin-bottom: calc(var(--rhythm) * 6)
 }
+
+/* CONTACT STYLING
+============================================================================================== */
+.contact_form ul {
+    padding: var(--rhythm) var(--paragraph-size) var(--logo-size);
+}
+
+.contact_form ul a:link, .contact_form ul a:visited {
+    font-family: var(--paragraph-type);
+    font-size: var(--paragraph-size);
+    font-weight: 700;
+    color: var(--button-color);
+    text-decoration: none;
+}
+
+.contact_form ul a:hover {
+    color: var(--button-hover-color);
+    text-decoration: underline;
+}
+
+.contact_form > div {
+    border-radius: 4px;
+    background-color: var(--burger);
+    padding: var(--logo-size) 0;
+}
+
+.contact_form > div h2, .contact_form > div form {
+    padding: 0 var(--paragraph-size);
+}
+
+.contact_form > div h2 {
+    color: var(--background-color);
+    margin-bottom: var(--logo-size);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    font-family: var(--paragraph-type);
+    font-size: var(--paragraph-size);
+    color: var(--section-color-01);
+}
+
+input[type=text] {
+    margin: var(--rhythm) 0 var(--logo-size);
+    padding: var(--rhythm);
+    background-color: var(--section-color-01);
+    border: none;
+    outline: none;
+}
+
+textarea {
+    margin: var(--rhythm) 0 var(--logo-size);
+    height: 150px;
+    padding: var(--rhythm);
+    border: none;
+    outline: none;
+    background-color: var(--section-color-01);
+    resize: none;
+}
+
+input[type=text]:focus, textarea:focus {
+    background-color: var(--background-color);
+}
+
+input[type=submit] {
+    background-color: var(--button-color);
+    color: var(--background-color);
+    padding: var(--paragraph-size);
+    border: none;
+    font-family: var(--heading-type);
+    font-size: var(--h2-size);
+}
+
+input[type=submit]:focus {
+    background-color: var(--button-hover-color);
+  }
+
+/* ============================================================================================== */
