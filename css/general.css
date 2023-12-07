@@ -250,3 +250,13 @@ input[type=submit]:focus {
   }
 
 /* ============================================================================================== */
+
+
+.masthead {
+    background-color: #ED1C24;
+    color: var(--background-color);
+}
+
+.masthead h2 {
+    color: var(--background-color);
+}
