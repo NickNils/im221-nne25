@@ -15,7 +15,6 @@
     --section-color-01: #EAEAEA;
     --section-color-02: #01050F;
     --burger: #0A0F8F;
-    --flavor: #FFC700;
 
 
     --heading-type: Impact;
@@ -66,6 +65,7 @@ h2+ul, h2+p {
 }
 
 footer {
+    height: 100vh;
     padding:  calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 6);
     background-color: var(--h2-color);
 }
