@@ -8,6 +8,7 @@
     --heading-color: #01050F;
     --h2-color: #535353;
     --background-color: #FFFFFF;
+    --footer_text_color: #FFFFFF;
     --button-color: #F08779;
     --button-hover-color: #E6371F;
     --text-color: #01050F;
@@ -64,31 +65,63 @@ h2+ul, h2+p {
     padding-top: var(--rhythm);
 }
 
+/* FOOTER / NAVIGATION 
+============================================================================================================*/
+
 footer {
     height: 100vh;
     padding:  calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 6);
     background-color: var(--h2-color);
 }
 
-footer > div {
+footer > div:first-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
 }
 
-footer > div > ul {
+footer > div:first-child ul {
+    display: flex;
+    flex-direction: row;
+    gap: var(--paragraph-size);
+}
+
+footer > div:first-child a {
+    font-size: var(--h2-size);
+    color: var(--footer_text_color);
+}
+
+footer > div:last-child {
     display: flex;
     flex-direction: column;
-    gap: var(--rhythm);
+    gap: var(--paragraph-size);
 }
 
-footer > div > ul:last-child i {
-    font-size: var(--h2-size);
+footer > div:last-child a {
+    width: 100%;
+    padding: var(--paragraph-size);
+    text-align: center;
+    background-color: var(--button-hover-color);
 }
 
-footer > div > ul a{
-    color: var(--background-color);
+footer > div:last-child a h1 {
+    font-size: var(--h1-size);
+    color: var(--footer_text_color);
 }
+
+
+/* footer > ul:last-child {
+    align-items: center;
+} */
+/* 
+footer > ul:last-child a:link, footer > ul:last-child a:visited {
+    width: 100%;
+    background-color: var(--button-color);
+} */
+
+/* ============================================================================================================ */
 
 img, video {
     width: 100%;
