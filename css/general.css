@@ -53,8 +53,12 @@ main {
     margin-bottom: calc(var(--rhythm) * 4);
 }
 
-main section, main > p, main > h1 {
-    padding: 0px 16px;
+ main > p, main > h1 {
+    padding: 0px calc(var(--rhythm) * 2);
+}
+
+main section {
+    padding: calc(var(--rhythm) * 3) calc(var(--rhythm) * 2);
 }
 
 main > h1+p, main > h1+section {
@@ -292,4 +296,16 @@ input[type=submit]:focus {
 
 .masthead h2 {
     color: var(--background-color);
+}
+
+.grey_back {
+    background-color: var(--section-color-01);
+}
+
+.black_back {
+    background-color: var(--section-color-02);
+}
+
+.aesop_layouts h2 {
+    color: var(--footer_text_color);
 }
