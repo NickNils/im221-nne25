@@ -1,0 +1,77 @@
+h2, h3, p, li {
+    font-family: var(--paragraph-type);
+}
+
+h2 {
+    font-weight: 700;
+    padding: calc(var(--rhythm) * 6) 0 var(--paragraph-size);
+}
+
+h3 {
+    font-weight: 500;
+    padding-bottom: var(--rhythm);
+}
+
+p, li {
+    font-weight: 300;
+}
+
+main section {
+    padding: 0  var(--paragraph-size) var(--paragraph-size);
+    margin: 0;
+    border-bottom: 1px solid var(--h2-color);
+}
+
+h3+p, h3+ul, h2+p, h2+ul {
+    padding: 0;
+}
+
+li, p {
+    padding-left: var(--paragraph-size);
+}
+
+.skill_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: var(--rhythm);
+}
+
+.skill_grid li {
+    padding: var(--rhythm);
+    text-align: center;
+    color: var(--background-color);
+    background-color: var(--heading-color);
+    border-radius: var(--h2-size);
+}
+
+.coding {
+    padding-top: var(--paragraph-size);
+}
+
+span {
+    font-weight: 700;
+    color: var(--burger);
+}
+
+.activities ul:last-child {
+    padding-top: var(--paragraph-size);
+}
+
+.experience div:first-child aside:last-child {
+    padding-top: var(--h2-size);
+}
+
+.exp_info {
+    background-color: var(--section-color-01);
+    padding: var(--paragraph-size) 0;
+    border-radius: var(--rhythm);
+    margin-bottom: var(--rhythm);
+}
+
+.exp_details {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+/* .exp_info li {
+} */

@@ -18,6 +18,7 @@
     --burger: #0A0F8F;
 
 
+
     --heading-type: Impact;
     --paragraph-type: Helvetica, Arial, sans-serif;
 
@@ -58,14 +59,15 @@ main {
 }
 
 main section {
-    padding: calc(var(--rhythm) * 3) calc(var(--rhythm) * 2);
+    padding: calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 3);
+    margin-top: calc(var(--rhythm) * 3);
 }
 
 main > h1+p, main > h1+section {
     padding-top: var(--logo-size);
 }
 
-h2+ul, h2+p {
+h2+ul, h2+p, h3+ul, h3+p {
     padding-top: var(--rhythm);
 }
 
@@ -194,14 +196,6 @@ a:hover.next > h1, a:active.next > h1, a:hover.prev > h1, a:active.prev > h1, a:
     flex-direction: column;
     gap: calc(var(--rhythm) * 2);
 }
-
-/* h1+p {
-    padding-top: 20px;
-}
-
-h2+p {
-    padding-top: 16px;
-} */
 
 p {
     margin-bottom: calc(var(--rhythm) * 6)
