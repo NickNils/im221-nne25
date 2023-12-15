@@ -59,8 +59,7 @@ main {
 }
 
 main section {
-    padding: calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 3);
-    margin-top: calc(var(--rhythm) * 3);
+    padding: calc(var(--rhythm) * 6) calc(var(--rhythm) * 2) calc(var(--rhythm) * 3);
 }
 
 main > h1+p, main > h1+section {
@@ -73,7 +72,6 @@ h2+ul, h2+p, h3+ul, h3+p {
 
 /* FOOTER / NAVIGATION 
 ============================================================================================================*/
-
 footer {
     height: 100vh;
     padding:  calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 6);
@@ -116,17 +114,6 @@ footer > div:last-child a h1 {
     font-size: var(--h1-size);
     color: var(--footer_text_color);
 }
-
-
-/* footer > ul:last-child {
-    align-items: center;
-} */
-/* 
-footer > ul:last-child a:link, footer > ul:last-child a:visited {
-    width: 100%;
-    background-color: var(--button-color);
-} */
-
 /* ============================================================================================================ */
 
 img, video {
@@ -183,12 +170,12 @@ h1.logo {
 }
 
 a:link.next > h1, a:visited.next > h1, a:link.prev > h1, a:visited.prev > h1, a:link.next > i, a:visited.next > i, a:link.prev > i, a:visited.prev > i {
-    color: var(--button-color);
+    padding-bottom: calc(var(--rhythm) * 0.5);
+    color: var(--button-hover-color);
     text-decoration: none;
 }
 a:hover.next > h1, a:active.next > h1, a:hover.prev > h1, a:active.prev > h1, a:hover.next > i, a:active.next > i, a:hover.prev > i, a:active.prev > i {
-    color: var(--button-hover-color);
-    text-decoration: underline;
+    border-bottom: 2px solid var(--button-hover-color);
 }
 
 .image-gallery {
@@ -279,10 +266,11 @@ input[type=submit] {
 input[type=submit]:focus {
     background-color: var(--button-hover-color);
   }
-
 /* ============================================================================================== */
 
 
+/* Smooth Goo styling
+================================================================================================ */
 .masthead {
     background-color: #ED1C24;
     color: var(--background-color);
@@ -291,6 +279,7 @@ input[type=submit]:focus {
 .masthead h2 {
     color: var(--background-color);
 }
+/* ============================================================================================== */
 
 .grey_back {
     background-color: var(--section-color-01);
@@ -300,6 +289,29 @@ input[type=submit]:focus {
     background-color: var(--section-color-02);
 }
 
+/* Aesop's Fables styling
+============================================================================================== */
 .aesop_layouts h2 {
     color: var(--footer_text_color);
 }
+/* ============================================================================================== */
+
+/* SHARK styling 
+============================================================================================== */
+.demo > p:last-child{
+    font-weight: 500;
+    padding-top: var(--paragraph-size);
+}
+
+.demo > p:last-child > a:link, .demo > p:last-child > a:visited {
+    font-family: var(--paragraph-type);
+    font-weight: 900;
+    padding-bottom: calc(var(--rhythm) * 0.5);
+    color: var(--button-hover-color);
+    text-decoration: none;
+}
+
+.demo > p:last-child > a:active, .demo > p:last-child > a:hover {
+    border-bottom: 2px solid calc(var(--rhythm) * 0.5);
+}
+/* ============================================================================================== */
