@@ -74,52 +74,6 @@ iframe {
     width: 100%;
 }
 
-/* FOOTER / NAVIGATION 
-============================================================================================================*/
-footer {
-    height: 100vh;
-    padding:  calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 6);
-    background-color: var(--h2-color);
-}
-
-footer > div:first-child {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 48px;
-}
-
-footer > div:first-child ul {
-    display: flex;
-    flex-direction: row;
-    gap: var(--paragraph-size);
-}
-
-footer > div:first-child a {
-    font-size: var(--h2-size);
-    color: var(--footer_text_color);
-}
-
-footer > div:last-child {
-    display: flex;
-    flex-direction: column;
-    gap: var(--paragraph-size);
-}
-
-footer > div:last-child a {
-    width: 100%;
-    padding: var(--paragraph-size);
-    text-align: center;
-    background-color: var(--button-hover-color);
-}
-
-footer > div:last-child a h1 {
-    font-size: var(--h1-size);
-    color: var(--footer_text_color);
-}
-/* ============================================================================================================ */
-
 img, video {
     width: 100%;
 }
@@ -189,9 +143,59 @@ a:hover.next > h1, a:active.next > h1, a:hover.prev > h1, a:active.prev > h1, a:
 }
 
 p {
-
-    margin: var(--rhythm) 0 calc(var(--rhythm) * 6);
+    margin-bottom: calc(var(--rhythm) * 6);
 }
+
+h1+p {
+    padding-top: var(--rhythm);
+}
+
+/* FOOTER / NAVIGATION 
+============================================================================================================*/
+footer {
+    height: 100vh;
+    padding:  calc(var(--rhythm) * 3) calc(var(--rhythm) * 2) calc(var(--rhythm) * 6);
+    background-color: var(--h2-color);
+}
+
+footer > div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+footer > div:first-child ul {
+    display: flex;
+    flex-direction: row;
+    gap: var(--paragraph-size);
+}
+
+footer > div:first-child a {
+    font-size: var(--h2-size);
+    color: var(--footer_text_color);
+}
+
+footer > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: var(--paragraph-size);
+}
+
+footer > div:last-child a {
+    width: 100%;
+    padding: var(--paragraph-size);
+    text-align: center;
+    background-color: var(--button-hover-color);
+}
+
+footer > div:last-child a h1 {
+    font-size: var(--h1-size);
+    color: var(--footer_text_color);
+}
+/* ============================================================================================================ */
+
 
 /* CONTACT STYLING
 ============================================================================================== */
