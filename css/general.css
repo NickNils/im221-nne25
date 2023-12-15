@@ -202,13 +202,14 @@ p {
     font-family: var(--paragraph-type);
     font-size: var(--paragraph-size);
     font-weight: 700;
-    color: var(--button-color);
-    text-decoration: none;
+    color: var(--button-hover-color);
+    padding-bottom:  calc(var(--rhythm) * 0.5);
+
 }
 
 .contact_form ul a:hover {
-    color: var(--button-hover-color);
-    text-decoration: underline;
+    border-bottom: 2px solid var(--button-hover-color);
+
 }
 
 .contact_form > div {
@@ -255,21 +256,17 @@ textarea {
 }
 
 input[type=text]:focus, textarea:focus {
-    background-color: var(--background-color);
+    background-color: var(--backgroun-color);
 }
 
 input[type=submit] {
-    background-color: var(--button-color);
+    background-color: var(--button-hover-color);
     color: var(--background-color);
     padding: var(--paragraph-size);
     border: none;
     font-family: var(--heading-type);
     font-size: var(--h2-size);
 }
-
-input[type=submit]:focus {
-    background-color: var(--button-hover-color);
-  }
 /* ============================================================================================== */
 
 
